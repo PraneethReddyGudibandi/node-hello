@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = '<h1>my first ci/cd groovy 4 edit\n<h1>'
+  const msg = '<h1>my first ci/cd groovy \n<h1>'
   res.end(msg);
 });
 
